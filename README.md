@@ -9,12 +9,14 @@ Available version of llama_cpp_python on https://abetlen.github.io/llama-cpp-pyt
 3. Nvidia RTX 4090 with CUDA version 12.2
 4. Visual Studio 2022
 
-'''
+Set CMake variebles
+```
 set CMAKE_ARGS="-DGGML_CUDA=on -DCUDA_PATH=/usr/local/cuda-12.2 -DCUDAToolkit_ROOT=/usr/local/cuda-12.2 -DCUDAToolkit_INCLUDE_DIR=/usr/local/cuda-12/include -DCUDAToolkit_LIBRARY_DIR=/usr/local/cuda-12.2/lib64"
-'''
-'''
+```
+Install llama_cpp_python of GPU version
+```
 python -m pip install llama-cpp-python==0.2.90 --extra-index-url https://abetlen.github.io/llama-cpp-python/whl/cu124 --upgrade --force-reinstall --no-cache-dir --verbose
-'''
+```
 
 ## Support
 ### OpenAI GPT models
