@@ -33,6 +33,10 @@ All Llama models in .gguf. Please download from huggingface by yourself.
 1. text-embedding-3-large
 2. text-embedding-3-small
 3. text-embedding-ada-002
+### Other tools
+1. Buffer for text and image
+2. Prompt template
+3. Base64 image encoder
 
 ## Acknowledgments
 This work is supported by National Taiwan University, Mechanical Engineering, Robotics Labotory. Thanks to Yu-Lin Zhao for debugging the GPU version of llama_cpp_python.
