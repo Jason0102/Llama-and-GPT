@@ -45,7 +45,6 @@ class llama_core():
                 if agent['buffer'] != None:
                     input_dict["chat_history"] = agent['buffer'].get()
                 prompt = agent['prompt_template'].format(input_dict)
-                print(prompt)
                 output = self.llm(
                     prompt, 
                     max_tokens=1024, 
